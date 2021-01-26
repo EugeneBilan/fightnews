@@ -9,13 +9,13 @@ const routes: Routes = [
   {
     path: '',
     component: HomepageComponent,
-    // children: [
-    //   {
-    //     path: 'home',
-    //     component: MainpageComponent
-    //   }
+    children: [
+      {
+        path: 'home',
+        component: MainpageComponent
+      }
 
-    // ]
+    ]
   }
 ]
 
@@ -24,6 +24,7 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes)
-  ]
+  ],
+  exports: [RouterModule]
 })
 export class HomepageRoutingModule { }
