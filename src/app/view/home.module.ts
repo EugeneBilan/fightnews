@@ -6,6 +6,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { MainpageComponent} from './components/mainpage/mainpage.component';
 
 import { HomepageRoutingModule} from './homepage-routing.module';
+import { SubheaderComponent } from './shared/components/subheader/subheader.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HomepageRoutingModule} from './homepage-routing.module';
     FooterComponent,
     HomepageComponent,
     HeaderComponent,
-    MainpageComponent
+    MainpageComponent,
+    SubheaderComponent
   ],
   imports: [
     CommonModule,

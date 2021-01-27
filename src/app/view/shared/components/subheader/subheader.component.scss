@@ -1,0 +1,22 @@
+.left-side a, p {
+    color: white;
+    text-decoration: none;
+}
+.subheader {
+    background-image: linear-gradient(#7b1717, #b60000);
+    height: 45px;
+    position:fixed;
+    width:100%;
+        .subheader-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                .left-side {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 10%;
+                    margin-left: 15px;
+                }
+        }
+}

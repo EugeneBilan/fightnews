@@ -4,16 +4,26 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    top: 0;
+    left: 0;
     .wrapper {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         
         .logo {
 
         }
         .navigation {
-            justify-content: space-between;
-            align-items: center; 
-            color:white;   
+            width: 80%;
+            margin-right: 20%;
+            
+            
+            
+            .nav-items {
+                display: flex;
+                justify-content: space-between;
+            }
         }
     }
 }
