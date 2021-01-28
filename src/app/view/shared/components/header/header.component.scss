@@ -23,7 +23,26 @@
             .nav-items {
                 display: flex;
                 justify-content: space-between;
+                    .dropdown-items {
+                        border: 1px grey;
+                        .el-wrapper {
+                            position:absolute;
+                            background-color: white;    
+                            display: flex;
+                            flex-direction: column;
+                            padding: 15px;
+                            z-index: 2;
+                            left: 135px;
+                            margin: 0 auto;
+                            .here {
+                                text-decoration: none;
+                                color: black;
+                                margin:5px;
+                                font-size: medium;
+                            }
+                        }    
+                    }
+                }
             }
         }
     }
-}
