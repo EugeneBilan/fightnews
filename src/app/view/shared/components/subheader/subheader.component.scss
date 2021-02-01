@@ -2,11 +2,21 @@
     color: white;
     text-decoration: none;
 }
+a:visited {
+    color:white;
+}
+
+span {
+    margin: 10px;
+}
 .subheader {
     background-image: linear-gradient(#7b1717, #b60000);
     height: 45px;
     position:fixed;
     width:100%;
+    top:85px;
+    .main {
+        margin: auto 0;
         .subheader-wrapper {
             display: flex;
             justify-content: space-between;
@@ -18,5 +28,30 @@
                     width: 10%;
                     margin-left: 15px;
                 }
+                .right-side {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-left: 300px;
+                    .left-content {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-right:75px;
+                    }
+                    .right-content {
+                        .wrapper {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin:15px;
+                        }
+                    }
+                        
+                }
+    
+            
         }
+    }
 }

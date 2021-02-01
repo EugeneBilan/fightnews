@@ -1,3 +1,12 @@
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.68rem;
+        &:visited {
+        color: white;
+        }
+}
+
 .header {
     position: fixed;
     background-color: black;
@@ -6,6 +15,8 @@
     width: 100%;
     top: 0;
     left: 0;
+    height: 85px;
+
     .wrapper {
         display: flex;
         justify-content: space-between;
@@ -17,18 +28,18 @@
         .navigation {
             width: 80%;
             margin-right: 20%;
-            
-            
-            
             .nav-items {
                 display: flex;
                 justify-content: space-between;
+                    &.a:hover .el-wrapper{
+                        display:flex;
+                    }
                     .dropdown-items {
                         border: 1px grey;
                         .el-wrapper {
                             position:absolute;
                             background-color: white;    
-                            display: flex;
+                            display: none;
                             flex-direction: column;
                             padding: 15px;
                             z-index: 2;
